@@ -1,0 +1,93 @@
+a{
+
+    font-family: Arial, Helvetica, sans-serif
+   
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #9932CC;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header a{
+    color: #ffffff;
+}
+
+header div{
+    color: #ffffff;
+    margin: 30px 30px;
+    margin-right: 30px;
+    
+    
+}
+
+
+
+body{
+    background: rgb(110,37,116);
+    background: linear-gradient(90deg, rgba(110,37,116,1) 0%, rgba(76,27,82,1) 36%, rgba(75,0,130,1) 100%);
+
+}
+
+.img-principal{
+    
+    height: 550px;
+}
+
+.titulo{
+    font-size: 40px;
+    font-style: Fira Code;
+    color: #ffffff;
+}
+
+.description{
+    font-size: 30px;
+}
+
+.botoes-principal{
+    font-size: 40px;
+    color: #ffffff;
+    background: #9932CC 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 16px;
+    opacity: 1;
+    margin-bottom: 20px;
+    padding: 0 30px
+    
+}
+
+.botoes-principal:hover{
+    text-decoration: underline;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.1fr 1.9fr 0.3fr 1.7fr;
+    grid-template-rows: 0.4fr 1.4fr 1.2fr;
+    gap: 1px 1px;
+    grid-template-areas: ". . . ." ". imagem imagem texto" ". imagem imagem botoes";
+  }
+  
+  .imagem { grid-area: imagem; }
+  
+  .texto { grid-area: texto; }
+  
+  .botoes { grid-area: botoes; }
+  
