@@ -12,7 +12,7 @@ a{
 
 header {
     background-color: #9932CC;
-    font-size: 54px;
+    font-size: 40px;
     display: flex;
     justify-content: space-between;
     
@@ -33,32 +33,40 @@ header div{
 
 
 body{
-    background-color: #4B0082;
+    background: rgb(110,37,116);
+    background: linear-gradient(90deg, rgba(110,37,116,1) 0%, rgba(76,27,82,1) 36%, rgba(75,0,130,1) 100%);
+
 }
 
 .img-principal{
-    margin-top: 50px;
+    
+    height: 550px;
 }
 
 .titulo{
-    font-size: 54px;
+    font-size: 40px;
     font-style: Fira Code;
     color: #ffffff;
 }
 
 .description{
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .botoes-principal{
-    font-size: 54px;
+    font-size: 40px;
     color: #ffffff;
     background: #9932CC 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 16px;
     opacity: 1;
     margin-bottom: 20px;
+    padding: 0 30px
     
+}
+
+.botoes-principal:hover{
+    text-decoration: underline;
 }
 
 .container {
