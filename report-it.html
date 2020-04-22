@@ -18,5 +18,84 @@
         <a href="talk-to-us.html">Fale conosco</a>
       </div>
     </header>
+
+    <main id="report-it">
+      <section class="form">
+        <form id="form">
+          <div class="input-wrapper">
+            <label for="name">Nome</label>
+
+            <input name="name" id="name" placeholder="Digite seu nome" />
+          </div>
+          <div class="input-wrapper">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu e-mail"
+            />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="cpf">CPF</label>
+            <input name="cpf" id="cpf" placeholder="Digite seu CPF" />
+          </div>
+
+          <div class="city-group">
+            <div class="input-wrapper">
+              <label for="email">Estado</label>
+              <input name="state" id="state" placeholder="Selecione" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="city">Cidade</label>
+              <input name="city" id="city" placeholder="Selecione" />
+            </div>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="address">Endereço</label>
+            <input
+              name="address"
+              id="address"
+              placeholder="Digite seu endereço"
+            />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="complement">Complemento</label>
+            <input
+              name="complement"
+              id="complement"
+              placeholder="Digite seu complemento "
+            />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="number">Número</label>
+            <input
+              name="number"
+              id="number"
+              placeholder="Digite o número da sua casa "
+            />
+          </div>
+        </form>
+        <div>
+          <div class="input-wrapper">
+            <label for="description">Descrição</label>
+            <textarea
+              form="form"
+              minlength="250"
+              name="description"
+              id="description"
+              placeholder="Digite sua mensagem"
+            ></textarea>
+          </div>
+
+          <button type="submit" form="form" class="btn">Denunciar</button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

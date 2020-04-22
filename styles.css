@@ -95,6 +95,10 @@ body {
   grid-area: botoes;
 }
 
+.botoes a {
+  margin-right: 24px;
+}
+
 /* PAGINA SOBRE  */
 .titulo-sobre {
   font-family: "Gabriela", serif;
@@ -123,6 +127,43 @@ body {
 
 .name {
   font-size: 15px;
+}
+
+/* Report it */
+
+#report-it {
+  margin: 64px auto;
+  max-width: 1120px;
+}
+
+#report-it section.form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 360px));
+  column-gap: 128px;
+}
+
+#report-it section.form .city-group {
+  margin: 16px 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+#report-it section.form .city-group div + div {
+  margin-top: 0;
+  margin-left: 16px;
+}
+
+#report-it section > div .input-wrapper textarea {
+  width: 50rem;
+  height: 12rem;
+
+  resize: vertical;
+}
+
+#report-it section > div button {
+  margin-top: 4.2rem;
+  padding: 16px 80px;
 }
 
 /* Talk to Us */
@@ -166,26 +207,20 @@ body {
   padding: 0 24px;
 }
 
-#talk-to-us form {
-  /* width: 100%; */
-  /* max-width: 340px; */
-}
-
 #talk-to-us form button {
   margin-top: 16px;
   width: 100%;
 }
 
-.about-container{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    color: #ffffff;
-
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  color: #ffffff;
 }
 
-.text-about{
-    font-size: 32px;
+.text-about {
+  font-size: 32px;
 }
 
 #talk-to-us form textarea {
@@ -209,18 +244,17 @@ body {
   color: #fff;
 }
 
-.git{
-    color: #ffffff;
-    font-size: 25px;
+.git {
+  color: #ffffff;
+  font-size: 25px;
 }
 
-.git:hover{
-    text-decoration: underline;
+.git:hover {
+  text-decoration: underline;
 }
 
-.name{
-    font-size: 25px;
-    
+.name {
+  font-size: 25px;
 }
 .input-wrapper input,
 .input-wrapper textarea {
