@@ -10,7 +10,8 @@
   </head>
   <body>
     <header>
-      <h1>LOGO</h1>
+      <a href="/index.html" class="logo"><h1>LOGO</h1></a>
+
       <div>
         <a href="reportIt.html">Denunciar</a>
         <a href="aboutUs.html">Sobre</a>
@@ -18,13 +19,42 @@
       </div>
     </header>
 
-    <main>
-      <h1>CONNECT MULHERES</h1>
-      <h3>TEXTO TEXTO</h3>
-      <h3>TEXTO TEXTO</h3>
+    <main id="talk-to-us">
+      <section class="form">
+        <form>
+          <div class="input-wrapper">
+            <label for="name">Nome</label>
+
+            <input name="name" id="name" placeholder="Digite seu nome" />
+          </div>
+          <div class="input-wrapper">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu e-mail"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="description">Descrição</label>
+            <textarea
+              minlength="250"
+              name="description"
+              id="description"
+              placeholder="Digite sua mensagem"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </section>
+      <section class="info">
+        <h1>Texto</h1>
+        <h2>
+          Canal para atendimento de reclamações, pedidos de análise, elogios e
+          informações gerais.
+        </h2>
+      </section>
     </main>
-
-  <main>
-
   </body>
 </html>
