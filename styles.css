@@ -120,11 +120,14 @@ body{
 
 .about-container{
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    margin-top: 50px;
+    color: #ffffff;
+
 }
 
 .text-about{
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .manfrim-photo {
@@ -133,8 +136,14 @@ body{
 
 .git{
     color: #ffffff;
+    font-size: 25px;
+}
+
+.git:hover{
+    text-decoration: underline;
 }
 
 .name{
-    font-size: 15px;
+    font-size: 25px;
+    
 }
