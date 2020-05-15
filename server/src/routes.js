@@ -17,6 +17,8 @@ routes.get("/reports", ReportController.index);
 
 routes.post("/reports", ReportController.store);
 
+routes.post("/analysed", ReportController.update);
+
 routes.get("/search", SearchController.store);
 
 export default routes;
